@@ -10,11 +10,11 @@ void dfs(int v, int p=-1) {
   for (int to: adj[v]) {
     if (to == p) 
       continue;
-    if (vis[to]) {
+    if (vis[to]) { // back edge
       low[v] = min(low[v], tin[to]);
     } else {
       dfs(to, v);
-      low[v] = min(low[v], low[to]);
+      low[v] = min(low[v], low[to]); // tree edge
       if (low[to] > tin[v]) {
         IS_BRIDGE(v, to);
       }

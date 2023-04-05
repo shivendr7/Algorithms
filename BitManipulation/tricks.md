@@ -16,8 +16,8 @@ res = x & (-x):Getting the rightmost set bit of x.
 
 
 Applications of bit manipulation \n
-● Bitwise operations are prominent in embedded systems, control systems, etc where memory(data transmission/data points) is still an issue. \n
-● They are also useful in networking where it is important to reduce the amount of data, so booleans are packed together. \n
+# Bitwise operations are prominent in embedded systems, control systems, etc where memory(data transmission/data points) is still an issue. \n
+# They are also useful in networking where it is important to reduce the amount of data, so booleans are packed together. \n
 Packing them together and taking them apart use bitwise operations and shift instructions. \n
-● Bitwise operations are also heavily used in the compression and encryption of data. \n
-● Useful in graphics programming, older GUIs are heavily dependent on bitwise operations like XOR(^) for selection highlighting and other overlays.
+# Bitwise operations are also heavily used in the compression and encryption of data. \n
+# Useful in graphics programming, older GUIs are heavily dependent on bitwise operations like XOR(^) for selection highlighting and other overlays.

@@ -1,1 +1,1 @@
-<a>enjoyalgorithms.com</a>
+[enjoyalgorithms.com]

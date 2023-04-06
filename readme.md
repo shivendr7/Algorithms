@@ -1,1 +1,1 @@
-[(enjoyalgorithms.com)]
+[(www.enjoyalgorithms.com)]
